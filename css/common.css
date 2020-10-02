@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;500;700&display=swap');
+* {
+    --footer-bg-color: #34495e;
+    --footer-color: #fff;
+    --footer-color-hover: #bdc3c7;
+    --footer-height: calc(.1 * 100vh);
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.navbar {
+    padding: 5px 5vw;
+}
+
+.content {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: var(--footer-height);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    min-height: var(--footer-height);
+    width: 100vw;
+    color: var(--footer-color);
+    background-color: var(--footer-bg-color);
+}
+
+.footer-inner {
+    margin: 0 10vw;
+    height: 100%;
+    padding: calc(var(--footer-height) * .1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: inherit;
+    transition: 300ms;
+}
+
+.footer-link:hover {
+    color: var(--footer-color-hover);
+    text-decoration: none;
+    transition: inherit;
+}
