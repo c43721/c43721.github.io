@@ -4,6 +4,7 @@
     --footer-color: #fff;
     --footer-color-hover: #bdc3c7;
     --footer-height: calc(.1 * 100vh);
+    --navbar-height: 5vh;
 }
 
 body {
@@ -12,12 +13,13 @@ body {
 
 .navbar {
     padding: 5px 5vw;
+    height: var(--navbar-height);
 }
 
 .content {
     overflow-x: hidden;
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - var(--navbar-height));
     padding-bottom: var(--footer-height);
 }
 
