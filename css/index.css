@@ -1,5 +1,13 @@
 * {
-    --avatar-border-color: #666;
+    --avatar-border-color: #DDD;
+    --jumbo-bg-color: #DDD;
+
+    --jumbo-color: #000;
+}
+
+.jumbotron.custom {
+    background-color: var(--jumbo-bg-color);
+    color: var(--jumbo-color);
 }
 
 .main {
