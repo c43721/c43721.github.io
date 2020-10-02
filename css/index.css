@@ -18,3 +18,8 @@
     max-width: 150px;
     border: 2px solid var(--avatar-border-color);
 }
+
+.name {
+    margin-left: 1vw;
+    font-weight: 500;
+}
