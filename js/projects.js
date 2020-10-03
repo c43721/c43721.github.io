@@ -1,4 +1,3 @@
-const pinnedProjectsContainer = $(".projects.pinned").slice(1);
 const projectResultSpan = $("#projects-pinned-span");
 const pinnedProjects = $(".pinned-project");
 
@@ -21,8 +20,7 @@ pinnedProjects.each(function () {
         .find("span.d-flex").removeClass(["d-flex", "justify-content-between"]).end()
         .find(".view-more").remove(".view-more").end()
         .find('.hidden').removeClass(["hidden", "project-card"]).addClass("show")
-}).after(() => {
-    if (!pinnedProjectsContainer.length()) projectResultSpan.text("No Pinned Projects");
 })
 
-
+const pinnedProjectsContainer = $(".projects.pinned").children().toArray().slice(1);
+if (!pinnedProjectsContainer.length) projectResultSpan.text("No Pinned Projects");
