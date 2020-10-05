@@ -23,6 +23,12 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .card {
+        min-width: 75vw;
+    }
+}
+
 .project-loading {
     animation-fill-mode: forwards;
     animation: slide-in 1.5s cubic-bezier(0.63, 0.26, 0.01, 0.76);
@@ -41,7 +47,7 @@
 }
 
 .other-projects-header {
-    padding: 2.5rem 5rem;
+    padding: 50px 0px;
 }
 
 .projects.pinned {
@@ -65,9 +71,13 @@
     text-align: left;
 }
 
+.card {
+    width: 35vw;
+}
+
 .project-card {
     animation-fill-mode: both;
-    width: 35vw;
+    width: 100%;
 }
 
 .hidden {

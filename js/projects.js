@@ -3,9 +3,6 @@ const pinnedProjects = $(".pinned-project");
 
 const viewMoreButtons = $(".view-more");
 
-const multiplier = Math.E * 1.02515;
-const contant = 25;
-
 viewMoreButtons.each(function () {
     $(this).on("click", function () {
         $(this).parentsUntil(".project-card").find(".view-more").text(function (i, text) {
