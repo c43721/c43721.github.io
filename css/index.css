@@ -13,6 +13,12 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .name {
+        font-size: 3rem;
+    }
+}
+
 .jumbotron.custom {
     background-color: var(--jumbo-bg-color);
     color: var(--jumbo-color);

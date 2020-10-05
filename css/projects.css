@@ -23,9 +23,15 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 500px) {
     .card {
         min-width: 75vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        min-width: 90vw;
     }
 }
 
