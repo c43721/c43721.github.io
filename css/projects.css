@@ -5,6 +5,7 @@
 
 @keyframes slide-in {
     0% {
+        opacity: 0;
         transform: scale(.5);
         transform: translateX(100%);
     }
