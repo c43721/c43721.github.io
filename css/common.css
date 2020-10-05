@@ -37,7 +37,7 @@ body {
 .footer {
     position: absolute;
     bottom: 0;
-    min-height: var(--footer-height);
+    height: var(--footer-height);
     width: 100vw;
     color: var(--footer-color);
     background-color: var(--footer-bg-color);
