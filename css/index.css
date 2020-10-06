@@ -37,16 +37,6 @@
     align-items: center;
 }
 
-.avatar {
-    border-radius: 50%;
-    vertical-align: middle;
-    height: 150px;
-    width: 150px;
-    max-height: 150px;
-    max-width: 150px;
-    border: 2px solid var(--avatar-border-color);
-}
-
 .name {
     margin-left: 1vw;
     font-weight: 500;

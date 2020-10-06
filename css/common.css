@@ -14,6 +14,16 @@ body {
     background-color: var(--background-color);
 }
 
+.avatar {
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+    border: 2px solid var(--avatar-border-color);
+}
+
 .navbar {
     padding: 5px 5vw;
     height: var(--navbar-height);

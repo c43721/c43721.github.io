@@ -50,7 +50,36 @@
 
         <main class="content" id="main-content">
             <div class="main">
-                <h1>Hello World</h1>
+                <div class="contact-container">
+                    <div class="contact-header">
+                        <img src="/assets/ProfilePicture.png" alt="self-portrait" class="avatar">
+                        <span>Name</span>
+                    </div>
+                    <div class="contact-advisory text-muted">Have questions? Want to just say hello? Contact me through
+                        this form!</div>
+
+                    <div class="divider"></div>
+
+                    <div class="contact-form">
+                        <form action="mailto:24@elo.associates">
+                            <div class="form form-name">
+                                <label for="subject">Your name: </label>
+                                <input type="text" name="form-name" id="name" placeholder="Garret">
+                            </div>
+                            <div class="form form-email">
+                                <label for="subject">Your email address: </label>
+                                <input type="email" name="subject" id="email" placeholder="garret@example.com">
+                            </div>
+                            <div class="form form-message">
+                                <label for="body">Your message: </label>
+                                <textarea name="body" id="message-text" class="message"
+                                    placeholder="I want to get in contact with you!"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Send!</button>
+                        </form>
+                        <!-- 3 form inputs -->
+                    </div>
+                </div>
             </div>
         </main>
 
