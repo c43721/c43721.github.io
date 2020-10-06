@@ -34,6 +34,13 @@ body {
     background-color: var(--background-color);
 }
 
+.divider {
+    background-color: #666;
+    width: 90%;
+    margin: 15px auto;
+    padding: .5px;
+}
+
 .avatar {
     border-radius: 50%;
     vertical-align: middle;
