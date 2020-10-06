@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;500;700&display=swap');
-
 * {
-    --footer-bg-color: #34495e;
+    --footer-bg-color: #006994;
     --footer-color: #fff;
     --footer-color-hover: #bdc3c7;
     --footer-height: calc(.1 * 100vh);
     --navbar-height: 7vh;
+    --background-color: #3498db;
+    --cloud-bg-color: #DDD;
 }
 
 body {
     font-family: 'Noto Sans HK', sans-serif;
+    background-color: var(--background-color);
 }
 
 .navbar {
     padding: 5px 5vw;
     height: var(--navbar-height);
+    background-color: var(--cloud-bg-color);
+    box-shadow: 0 0 5px 10px var(--cloud-bg-color);
+}
+
+.nav-dropdown {
+    background-color: var(--cloud-bg-color);
 }
 
 .collapse, .collapsing {

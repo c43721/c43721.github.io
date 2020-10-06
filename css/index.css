@@ -1,5 +1,4 @@
 * {
-    --avatar-border-color: #888;
     --jumbo-bg-color: #DDD;
     --jumbo-color: #000;
 }
@@ -20,9 +19,9 @@
 }
 
 .jumbotron.custom {
-    background-color: var(--jumbo-bg-color);
+    background-color: var(--cloud-bg-color);
     color: var(--jumbo-color);
-    box-shadow: 0 0 5px 15px var(--jumbo-bg-color);
+    box-shadow: 0 0 5px 15px var(--cloud-bg-color);
 }
 
 #main-content {
