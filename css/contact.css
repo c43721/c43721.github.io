@@ -3,6 +3,7 @@
 }
 
 .contact-container {
+    animation: fade-in 1.5s cubic-bezier(0.12, 0.54, 0.3, 0.79);
     background-color: var(--cloud-bg-color);
     box-shadow: 0 0 10px 5px var(--cloud-bg-color);
     width: max-content;
