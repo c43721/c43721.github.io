@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;500;700&display=swap');
 * {
-    --footer-bg-color: #006994;
+    --footer-bg-color: linear-gradient(0deg, rgba(2,0,36,1) 10%, rgba(0,105,148,1) 100%);
+    --footer-top-bg-color: #006994;
     --footer-color: #fff;
     --footer-color-hover: #bdc3c7;
     --footer-height: calc(.1 * 100vh);
@@ -28,6 +29,25 @@
     100% {
         opacity: 1;
     }
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+.wave {
+    z-index: -1;
+    background: url("../assets/wave.svg") repeat-x;
+    position: absolute;
+    bottom: 70px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 15s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
 }
 
 body {
@@ -86,7 +106,8 @@ body {
     height: var(--footer-height);
     width: 100vw;
     color: var(--footer-color);
-    background-color: var(--footer-bg-color);
+    box-shadow: 0 0 10px 7px var(--footer-top-bg-color);
+    background: var(--footer-bg-color);
 }
 
 .footer-inner {
