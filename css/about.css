@@ -24,6 +24,7 @@
     width: 50%;
     border-radius: 3px;
     animation: fade-in 1.5s cubic-bezier(0.12, 0.54, 0.3, 0.79);
+    box-shadow: 0 0 10px 10px var(--cloud-bg-color)
 }
 
 .header {
