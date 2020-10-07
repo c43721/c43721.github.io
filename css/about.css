@@ -1,3 +1,21 @@
+@media screen and (max-width: 900px) {
+    .header {
+        display: flex;
+        flex-direction: column !important;
+        font-size: 1.75rem !important;
+    }
+
+    .avatar {
+        margin: 0px !important;
+        height: 75px !important;
+        width: 75px !important;
+    }
+
+    .main {
+        width: 90% !important;
+    }
+}
+
 .main {
     margin: 0 auto;
     padding: 15px;
@@ -5,10 +23,12 @@
     background-color: var(--cloud-bg-color);
     width: 50%;
     border-radius: 3px;
+    animation: fade-in 1.5s cubic-bezier(0.12, 0.54, 0.3, 0.79);
 }
 
 .header {
     font-size: 2.5rem;
+    padding: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +45,5 @@
     padding: 20px;
     text-align: justify;
     text-justify: inter-word;
+    line-height: 2;
 }

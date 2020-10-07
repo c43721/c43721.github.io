@@ -7,6 +7,7 @@
     --navbar-height: 7vh;
     --background-color: #3498db;
     --cloud-bg-color: #DDD;
+    --fade-in-curve: cubic-bezier(0.12, 0.54, 0.3, 0.79);
 }
 
 @keyframes slide-in {

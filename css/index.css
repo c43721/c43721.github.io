@@ -16,7 +16,7 @@
 }
 
 #main-content {
-    animation: fade-in 1.5s cubic-bezier(0, 0, 0.22, 0.79);
+    animation: fade-in 1.5s var(--fade-in-curve);
     animation-fill-mode: both;
     animation-delay: 170ms;
 }
