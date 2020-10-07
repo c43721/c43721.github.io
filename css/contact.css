@@ -19,15 +19,8 @@
     border-radius: 3px;
 }
 
-.contact-header {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
-
 .contact-advisory {
+    margin: 15px 5px;
     font-size: 1.25rem;
 }
 
@@ -83,4 +76,9 @@ label {
     width: 100%;
     margin: 15px 0px;
     background-color: var(--form-bg-color);
+}
+
+.btn-submit:hover {
+    color: green;
+    box-shadow: 0 0 8px 0px var(--form-bg-color);
 }

@@ -3,8 +3,6 @@
     --no-result-span-color: #e74c3c;
 }
 
-
-
 @media screen and (max-width: 1000px) and (min-width: 500px) {
     .card {
         min-width: 75vw;
@@ -52,7 +50,9 @@
 }
 
 .projects.pinned>.card {
-    width: 15rem;
+    width: 400px;
+    border-color: var(--pinned-project-border-color);
+    box-shadow: 0 0 15px 3px var(--pinned-project-border-color);
 }
 
 .projects.pinned>.card>.card-body {
@@ -61,11 +61,16 @@
 
 .card {
     width: 35vw;
+    border: 2px solid #555;
 }
 
 .project-card {
     animation-fill-mode: both;
     width: 100%;
+}
+
+.project-card>* {
+    text-align: left;
 }
 
 .hidden {
@@ -74,6 +79,7 @@
 
 .pinned-project {
     border-color: var(--pinned-project-border-color);
+    box-shadow: 0 0 15px 3px var(--pinned-project-border-color);
 }
 
 .result-span {
