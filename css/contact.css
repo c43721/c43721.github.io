@@ -2,6 +2,12 @@
     --form-bg-color: hsl(0, 0%, 74%);
 }
 
+@media screen and (max-width: 700px) {
+    .contact-container {
+        width: auto !important;
+    }
+}
+
 .contact-container {
     animation: fade-in 1.5s var(--fade-in-curve);
     background-color: var(--cloud-bg-color);
