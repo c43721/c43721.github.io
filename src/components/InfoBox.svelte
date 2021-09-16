@@ -10,8 +10,7 @@
 	</div>
 
 	<p class="self_description">
-		I am a full stack web developer with a focus on building cost effective solutions to challenging
-		problems.
+		I am a full-stack engineer who loves using the latest and greatest.
 	</p>
 
 	<hr class="divider" />
@@ -29,6 +28,8 @@
 		display: flex;
 		align-items: center;
 		gap: 7px;
+
+		min-width: 40vw;
 
 		& p {
 			font-weight: 500;
