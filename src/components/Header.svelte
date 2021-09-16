@@ -22,12 +22,6 @@
 
 	$padding: 1rem;
 	$containerHeight: 75px;
-
-	:global(body) {
-		box-sizing: border-box;
-		margin: 0;
-	}
-
 	.container {
 		height: $containerHeight;
 		background-color: $primary;
