@@ -15,13 +15,12 @@
 <div class="wave" />
 
 <style lang="scss">
-	$width: clamp(90%, 50vw, 50%);
-
 	.content {
+		margin: 0 1rem;
 		display: flex;
 		justify-content: center;
         align-items: center;
         height: 45vh;
-        width: $width;
+        min-width: 50vw;
 	}
 </style>

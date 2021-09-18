@@ -3,7 +3,7 @@
 
 	let characters = ['🥳', '🎉', '✨'];
 
-	let confetti = new Array(4)
+	let confetti = new Array(50)
 		.fill()
 		.map((_, i) => {
 			return {

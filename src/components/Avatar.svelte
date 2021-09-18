@@ -10,6 +10,7 @@
 
 	.avatar {
 		border-radius: 50%;
+		border: 1px solid #777;
 		vertical-align: middle;
 		height: $scale;
 		width: $scale;

@@ -32,7 +32,7 @@
 		min-width: 40vw;
 
 		& p {
-			font-weight: 500;
+			font-weight: bold;
 			font-size: 3rem;
 		}
 	}
@@ -47,6 +47,7 @@
 	.divider {
 		border: none;
 		border: 1px solid lighten($secondary, 10%);
+		transform: skewX(-30deg);
 	}
 
 	.bottom {
@@ -55,7 +56,7 @@
 		flex-direction: column;
 
 		& p {
-			font-weight: 600;
+			font-weight: 700;
 		}
 	}
 
