@@ -1,17 +1,21 @@
 <script lang="ts">
+	import { fade, fly, slide } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+
 	export let title: string;
 	export let description: string;
 	export let category: string;
 	export let stack: string[];
+	export let starred: boolean = false;
 
 	let open: boolean = false;
 </script>
 
-<div class="container">
+<div class="container" class:starred>
 	<div class="header">
 		<p class="title">{title}</p>
 		{#if open}
-			<p class="category">{category}</p>
+			<p in:fade={{ duration: 170 }} out:fly={{ x: -10 }} class="category">{category}</p>
 		{/if}
 		{#if open}
 			<p class="button" on:click|preventDefault={() => (open = !open)}>View Less</p>
@@ -20,15 +24,15 @@
 		{/if}
 	</div>
 	{#if open}
-		<div class="description">
-			<div>
+		<div class="description" transition:slide>
+			<span>
 				<p>Stack:</p>
 				<ul>
 					{#each stack as s}
 						<li>{stack}</li>
 					{/each}
 				</ul>
-			</div>
+			</span>
 			<p class="main_content">
 				{@html description}
 			</p>
@@ -39,6 +43,8 @@
 <style lang="scss">
 	@import '../styles/base';
 
+	$starredColor: #f1c40f;
+
 	.main_content {
 		margin-top: 15px;
 	}
@@ -46,7 +52,7 @@
 	.category {
 		font-size: 0.8rem;
 		color: #6c757d;
-        opacity: .75;
+		opacity: 0.75;
 	}
 
 	.title {
@@ -59,6 +65,11 @@
 		border-radius: 0.3em;
 		padding: 7px 15px;
 		background-color: $primary;
+
+		&.starred {
+			border-color: $starredColor;
+			box-shadow: 0 0 15px 3px $starredColor;
+		}
 
 		& .button {
 			user-select: none;

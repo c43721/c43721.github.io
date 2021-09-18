@@ -19,4 +19,10 @@ export default interface IProject {
 	 * List of technologies used
 	 */
 	stack: string[];
+
+	/**
+	 * Outline the Project to make it stand out
+	 * @default false
+	 */
+	starred?: boolean;
 }
