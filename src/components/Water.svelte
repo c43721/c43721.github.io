@@ -1,13 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
 
-	let characters = ['🥳', '🎉', '✨'];
-
-	let confetti = new Array(50)
+	let confetti = new Array(65)
 		.fill()
 		.map((_, i) => {
 			return {
-				character: characters[i % characters.length],
 				x: Math.random() * 100 - 15,
 				y: -20 - Math.random() * 100,
 				r: 0.1 + Math.random() * 1
@@ -35,9 +32,7 @@
 </script>
 
 {#each confetti as c}
-	<span class="confetti" style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})"
-		>{c.character}</span
-	>
+	<span class="water" style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})" />
 {/each}
 
 <style>
@@ -51,8 +46,12 @@
 		user-select: none;
 	}
 
-	.confetti {
-		opacity: 0.5;
+	.water {
 		z-index: -1;
+		width: 1px;
+		height: 60%;
+		margin-left: 7px;
+		background: linear-gradient(to bottom, rgba(79, 88, 210, 0), rgba(255, 255, 255, 0.25));
+		animation: stem 0.5s linear infinite;
 	}
 </style>

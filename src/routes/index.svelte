@@ -1,6 +1,6 @@
 <script>
 	import InfoBox from '../components/InfoBox.svelte';
-	import Confetti from '../components/Confetti.svelte';
+	import Confetti from '../components/Water.svelte';
 	import Header from '../components/Header.svelte';
 </script>
 
