@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { fade, fly, slide } from 'svelte/transition';
-	import { quintOut } from 'svelte/easing';
 
 	export let title: string;
 	export let description: string;
