@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	let confetti = new Array(65)
+	let droplets = new Array(65)
 		.fill()
 		.map((_, i) => {
 			return {
@@ -18,7 +18,7 @@
 		function loop() {
 			frame = requestAnimationFrame(loop);
 
-			confetti = confetti.map((emoji) => {
+			droplets = droplets.map((emoji) => {
 				emoji.y += 0.7 * emoji.r;
 				if (emoji.y > 120) emoji.y = -20;
 				return emoji;
@@ -31,7 +31,7 @@
 	});
 </script>
 
-{#each confetti as c}
+{#each droplets as c}
 	<span class="water" style="left: {c.x}%; top: {c.y}%; transform: scale({c.r})" />
 {/each}
 
@@ -52,6 +52,5 @@
 		height: 60%;
 		margin-left: 7px;
 		background: linear-gradient(to bottom, rgba(79, 88, 210, 0), rgba(255, 255, 255, 0.25));
-		animation: stem 0.5s linear infinite;
 	}
 </style>
