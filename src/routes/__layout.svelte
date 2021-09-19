@@ -1,5 +1,5 @@
 <script>
-	import Confetti from '../components/Water.svelte';
+	import Water from '../components/Water.svelte';
 	import Header from '../components/Header.svelte';
 </script>
 
@@ -7,4 +7,4 @@
 
 <slot />
 
-<Confetti />
+<Water />
