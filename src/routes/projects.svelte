@@ -3,28 +3,8 @@
 
 	import Project from '../components/Project.svelte';
 	import Head from '../components/Head.svelte';
-	import type IProject from '../types/project';
 
-	const projects: IProject[] = [
-		{
-			title: 'tes1t',
-			category: 'Website',
-			description: 'Testing website',
-			stack: ['mongodb']
-		},
-		{
-			title: 'test2',
-			category: 'Website',
-			description: 'Testing website',
-			stack: ['mongodb']
-		},
-		{
-			title: 'test3',
-			category: 'Website',
-			description: 'Testing website',
-			stack: ['mongodb']
-		}
-	];
+	import projects from '../utils/allProjects';
 </script>
 
 <Head title="Projects" description="c43721's Projects" />
