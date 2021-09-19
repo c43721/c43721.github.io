@@ -1,3 +1,5 @@
+type CategoryType = 'Discord Bot' | 'Website' | 'NPM Package' | 'Other';
+
 export default interface IProject {
 	/**
 	 * Title of the Project
@@ -13,7 +15,7 @@ export default interface IProject {
 	 * Category of the Project
 	 * @example Website
 	 */
-	category: string;
+	category: CategoryType;
 
 	/**
 	 * List of technologies used

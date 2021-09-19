@@ -6,7 +6,8 @@ export default [
 		category: 'Discord Bot',
 		description:
 			'A discord bot intended to integrate services from TF2 into Discord. I continued to develop it after it was discontinued in late 2019. Fun fact: I translated all of the bot to Spanish myself!',
-		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'React', 'Express', 'Vercel']
+		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'React', 'Express', 'Vercel', 'DigitalOcean'],
+		starred: true
 	},
 	{
 		title: 'rcon.tf',
