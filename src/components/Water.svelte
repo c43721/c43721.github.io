@@ -37,7 +37,7 @@
 
 <style>
 	:global(body) {
-		overflow: hidden;
+		height: 200vh;
 	}
 
 	span {

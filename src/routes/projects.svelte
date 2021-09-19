@@ -31,5 +31,6 @@
 		justify-content: center;
 		margin: 0 auto;
 		gap: 25px;
+		padding-bottom: 50px;
 	}
 </style>

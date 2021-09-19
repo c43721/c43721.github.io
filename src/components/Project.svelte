@@ -7,8 +7,6 @@
 	export let stack: string[];
 	export let starred: boolean = false;
 
-	const TAB = ' '.repeat(4);
-
 	let open: boolean = false;
 </script>
 
@@ -65,6 +63,15 @@
 
 	.main_content {
 		padding-top: 20px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $linkColor;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	.container {
