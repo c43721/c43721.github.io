@@ -1,6 +1,7 @@
 <script>
 	import Avatar from './Avatar.svelte';
 	import ButtonLink from '../components/ButtonLink.svelte';
+	import Divider from './Divider.svelte';
 </script>
 
 <div class="container">
@@ -13,7 +14,7 @@
 		I am a full-stack engineer who loves using the latest and greatest.
 	</p>
 
-	<hr class="divider" />
+	<Divider />
 
 	<div class="bottom">
 		<p>Go explore my projects!</p>
@@ -42,12 +43,6 @@
 		margin: 15px 15px;
 		text-align: center;
 		font-size: 1.15rem;
-	}
-
-	.divider {
-		border: none;
-		border: 1px solid lighten($secondary, 10%);
-		transform: skewX(-30deg);
 	}
 
 	.bottom {
