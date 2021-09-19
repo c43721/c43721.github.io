@@ -2,6 +2,7 @@
 	import { fade } from 'svelte/transition';
 
 	import Project from '../components/Project.svelte';
+	import Head from '../components/Head.svelte';
 	import type IProject from '../types/project';
 
 	const projects: IProject[] = [
@@ -25,6 +26,8 @@
 		}
 	];
 </script>
+
+<Head title="Projects" description="c43721's Projects" />
 
 <h1 class="header">Projects</h1>
 

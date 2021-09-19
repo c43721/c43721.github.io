@@ -1,7 +1,10 @@
 <script>
+	import Head from '../components/Head.svelte';
 	import Divider from '../components/Divider.svelte';
 	import SmallAvatar from '../components/SmallAvatar.svelte';
 </script>
+
+<Head title="About" description="About c43721" />
 
 <main class="container">
 	<section class="content">
