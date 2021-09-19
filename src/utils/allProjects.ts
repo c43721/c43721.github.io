@@ -45,7 +45,7 @@ export default [
 		title: 'This Site!',
 		category: 'Website',
 		description: `Originally written during bootcamp, I decided in late 2021 to reface it and give it more meaning to me. I had originally written it using just HTML, CSS, and JavaScript, but now is written using <a href="https://svelte.dev">Svelte</a>!`,
-		stack: ['JavaScript', 'SCSS', 'Svelte', 'GitHub Actions']
+		stack: ['JavaScript', 'SCSS', 'Svelte', 'GitHub Actions'],
 	},
 	{
 		title: 'Website Rcon',

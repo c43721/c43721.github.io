@@ -65,15 +65,6 @@
 		padding-top: 20px;
 	}
 
-	a {
-		text-decoration: none;
-		color: $linkColor;
-
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-
 	.container {
 		font-size: 1.2rem;
 		border: 1px solid #666;

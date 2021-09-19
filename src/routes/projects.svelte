@@ -5,6 +5,11 @@
 	import Head from '../components/Head.svelte';
 
 	import projects from '../utils/allProjects';
+
+	// Sorting boolean :/
+	$: allProjects = projects.sort((a: any, b: any) =>
+		b.starred === a.starred ? 0 : b.starred === true ? 1 : -1
+	);
 </script>
 
 <Head title="Projects" description="c43721's Projects" />
@@ -12,7 +17,7 @@
 <h1 class="header">Projects</h1>
 
 <div class="project-list">
-	{#each projects as p, i (p.title)}
+	{#each allProjects as p, i (p.title)}
 		<span in:fade={{ delay: i * 100 }}>
 			<Project {...p} />
 		</span>
