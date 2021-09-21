@@ -5,8 +5,6 @@
 		path: string;
 	}
 
-	let active = (path: string) => $page.path === path;
-
 	let links: Link[] = [
 		{ name: 'Home', path: '/' },
 		{ name: 'About', path: '/about' },
@@ -18,7 +16,7 @@
 	<a class="link__header" href="/">c43721</a>
 
 	{#each links as link (link.name)}
-		<a class="link" class:link--active={active(link.path)} href={link.path}>{link.name}</a>
+		<a class="link" class:link--active={link.path === $page.path } href={link.path}>{link.name}</a>
 	{/each}
 </div>
 

@@ -1,7 +1,7 @@
 <script>
 	import Head from '../components/Head.svelte';
 	import Divider from '../components/Divider.svelte';
-	import SmallAvatar from '../components/SmallAvatar.svelte';
+	import Avatar from '../components/Avatar.svelte';
 </script>
 
 <Head title="About" description="About c43721" />
@@ -9,7 +9,7 @@
 <main class="container">
 	<section class="content">
 		<div class="header">
-			<SmallAvatar src="ProfilePicture.png" />
+			<Avatar scale={75} src="ProfilePicture.png" />
 			<span class="name">c43721</span>
 		</div>
 
