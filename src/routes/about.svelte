@@ -44,12 +44,17 @@
 	$scale: 75px;
 	$linkColor: #007bff;
 
+	@media screen and (max-width: 800px) {
+		.content {
+			width: 80vw !important;
+		}
+	}
+
 	.container {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 15px;
-		height: 70vh;
 	}
 
 	.divider {
