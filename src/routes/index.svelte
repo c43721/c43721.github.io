@@ -11,11 +11,10 @@
 
 <style lang="scss">
 	.content {
-		margin: 0 1rem;
+		margin: 5vh 1rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 45vh;
 		min-width: 50vw;
 	}
 </style>
