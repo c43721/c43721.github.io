@@ -32,7 +32,7 @@
 			<br /> <br />
 
 			If you want to get in touch with me, you're free to
-			<a href="mailto:24@elo.associates">send me an email</a>. If you wish to explore my projects in
+			<a href="mailto:c43721@c43721.dev">send me an email</a>. If you wish to explore my projects in
 			more detail, head to my <a href="https://github.com/c43721" target="_blank">github page</a>.
 		</section>
 	</section>
