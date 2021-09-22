@@ -43,7 +43,9 @@
 		<ul class="navbar-list" class:mobile={showMobileMenu}>
 			{#each links as item}
 				<li>
-					<a on:click={handleNavbarClick} href={item.path}>{item.name}</a>
+					<a on:click={handleNavbarClick} href={item.path} class:active={$page.path === item.path}
+						>{item.name}</a
+					>
 				</li>
 			{/each}
 		</ul>
@@ -141,6 +143,10 @@
 		& li {
 			list-style-type: none;
 			position: relative;
+
+			& a.active {
+				color: $textPrimary;
+			}
 		}
 
 		& li::before {
@@ -178,6 +184,10 @@
 			&:hover {
 				color: #fff;
 			}
+
+			&.--active {
+				color: $textPrimary;
+			}
 		}
 	}
 
@@ -192,9 +202,6 @@
 		font-size: 13px;
 
 		&:hover {
-			color: $textPrimary;
-		}
-		&--active {
 			color: $textPrimary;
 		}
 	}
