@@ -25,6 +25,18 @@
 </div>
 
 <style lang="scss">
+
+	@media screen and (max-width: 700px) {
+		.project-list {
+			min-width: 70vw;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.project-list {
+			min-width: 90vw;
+		}
+	}
 	.header {
 		text-align: center;
 	}
