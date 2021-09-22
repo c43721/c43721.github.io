@@ -4,8 +4,12 @@ export default [
 	{
 		title: 'Payload',
 		category: 'Discord Bot',
-		description:
-			'A discord bot intended to integrate services from TF2 into Discord. I continued to develop it after it was discontinued in late 2019. Fun fact: I translated all of the bot to Spanish myself!',
+		description: `
+		A discord bot intended to integrate services from TF2 into Discord. I continued to develop it after it was discontinued in late 2019. 
+		I've deployed it in Docker containers, using nginx to proxy my requests, while being served through Cloudflare.
+		
+		<br /> <br />
+		Fun fact: I translated all of the bot to Spanish myself!`,
 		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'React', 'Express', 'Vercel', 'DigitalOcean'],
 		starred: true
 	},
@@ -45,7 +49,7 @@ export default [
 		title: 'This Site!',
 		category: 'Website',
 		description: `Originally written during bootcamp, I decided in late 2021 to reface it and give it more meaning to me. I had originally written it using just HTML, CSS, and JavaScript, but now is written using <a href="https://svelte.dev">Svelte</a>!`,
-		stack: ['JavaScript', 'SCSS', 'Svelte', 'GitHub Actions'],
+		stack: ['JavaScript', 'SCSS', 'Svelte', 'GitHub Actions']
 	},
 	{
 		title: 'Website Rcon',
