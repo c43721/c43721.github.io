@@ -1,0 +1,15 @@
+$primary: #ddd;
+
+$secondary: #3498db;
+
+$textPrimary: #000;
+$textSecondary: rgba(0, 0, 0, 0.5);
+
+$linkColor: #007bff;
+
+:global(body) {
+	font-family: 'Lato', sans-serif;
+	background-color: $secondary;
+	box-sizing: border-box;
+	margin: 0;
+}
