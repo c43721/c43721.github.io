@@ -5,8 +5,8 @@ export default [
 		title: 'Payload',
 		category: 'Discord Bot',
 		description: `
-		A discord bot intended to integrate services from TF2 into Discord. I continued to develop it after it was discontinued in late 2019. 
-		I've deployed it in Docker containers, using nginx to proxy my requests, while being served through Cloudflare.
+		A discord bot intended to integrate services from TF2 into Discord. This was my first major projec that I had not only developed, but also deployed to end users.
+		I've deployed it using Docker, with nginx to proxy my requests, being served through Cloudflare. Payload bot is also accompanied by a React frontend to manage your settings.
 		
 		<br /> <br />
 		Fun fact: I translated all of the bot to Spanish myself!`,
@@ -16,7 +16,7 @@ export default [
 	{
 		title: 'rcon.tf',
 		category: 'Website',
-		description: `A website to manage many <a href="https://developer.valvesoftware.com/wiki/Source_Dedicated_Server">srcds gameservers</a> at once as a server owner. The goal in mind was to give power to a server owner to see who is playing and what is going on.`,
+		description: `A website to manage many <a href="https://developer.valvesoftware.com/wiki/Source_Dedicated_Server">srcds gameservers</a> at once as a server owner. The goal in mind was to give power to a server owner to see who is playing and what is going on. This was my final project for my Coding Bootcamp.`,
 		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'React', 'Redux', 'NestJS', 'DigitalOcean']
 	},
 	{
@@ -42,13 +42,13 @@ export default [
 	{
 		title: 'Kodning',
 		category: 'Website',
-		description: `Our group final that took everything that we learned and put it to the test: Make a social media website. Complete with user authentication! I led our group of 6 bootcamp attendees to victory as we scored perfect on the project.`,
+		description: `Our group final that took everything that we learned and put it to the test: Make a social media website. Complete with user authentication! I led our group of 6 bootcamp attendees to victory achieved a 100% on the project.`,
 		stack: ['MongoDB', 'JavaScript', 'NodeJS', 'React', 'Express']
 	},
 	{
 		title: 'This Site!',
 		category: 'Website',
-		description: `Originally written during bootcamp, I decided in late 2021 to reface it and give it more meaning to me. I had originally written it using just HTML, CSS, and JavaScript, but now is written using <a href="https://svelte.dev">Svelte</a>!`,
+		description: `Originally written during bootcamp, I decided in mid 2021 to reface it and give it more meaning and give it a better feel. I had originally written it using just HTML, CSS, and JavaScript, but now is written using <a href="https://svelte.dev">Svelte</a>! This project also has a full-on CI/CD pipeline, where changes will be reflected automatically using GitHub Actions and GitHub Pages.`,
 		stack: ['JavaScript', 'SCSS', 'Svelte', 'GitHub Actions']
 	},
 	{
