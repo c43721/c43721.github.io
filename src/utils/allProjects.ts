@@ -56,7 +56,7 @@ export default [
 		category: 'Website',
 		description: `I more-or-less built this just to test my skills, as I had already built something
             similar for the rcon.tf project, but I decided to take that code and make it
-            accessable to anyone on the web. It uses GitHub pages to deploy!`,
-		stack: ['HTMl', 'CSS', 'JavaScript', 'Express']
+            accessable to anyone on the web. It uses GitHub Pages to host, and uses the rcon.tf's backend to run commands.`,
+		stack: ['HTMl', 'CSS', 'JavaScript', 'Express', 'GitHub Pages']
 	}
 ] as IProject[];
