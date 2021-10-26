@@ -10,7 +10,7 @@ export default [
 		
 		<br /> <br />
 		Fun fact: I translated all of the bot to Spanish myself!`,
-		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'React', 'Express', 'Vercel', 'DigitalOcean'],
+		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'Next.js', 'Express', 'Vercel', 'DigitalOcean'],
 		starred: true
 	},
 	{
@@ -18,6 +18,12 @@ export default [
 		category: 'Website',
 		description: `A website to manage many <a href="https://developer.valvesoftware.com/wiki/Source_Dedicated_Server">srcds gameservers</a> at once as a server owner. The goal in mind was to give power to a server owner to see who is playing and what is going on. This was my final project for my Coding Bootcamp.`,
 		stack: ['MongoDB', 'TypeScript', 'NodeJS', 'React', 'Redux', 'NestJS', 'DigitalOcean']
+	},
+	{
+		title: 'tf2pickup.org',
+		category: 'Website',
+		description: `An open sourced website to allow people to organize pick-up games for TF2. I got involved by doing some contributions to the backend, and do some tidying up here and there. Since I'm not a core maintainer and just a collaborator currently, most of my work is talking with the project owners and coding up some solutions, getting feedback, working on the feedback, and merging my PRs!`,
+		stack: ['MongoDB', 'TypeScript', 'NodeJS']
 	},
 	{
 		title: 'RGL API',
@@ -44,6 +50,12 @@ export default [
 		category: 'Website',
 		description: `Our group final that took everything that we learned and put it to the test: Make a social media website. Complete with user authentication! I led our group of 6 bootcamp attendees to victory achieved a 100% on the project.`,
 		stack: ['MongoDB', 'JavaScript', 'NodeJS', 'React', 'Express']
+	},
+	{
+		title: 'logstf-parser',
+		category: 'NPM Package',
+		description: `A fork of a past framework for parsing logs.tf logs, I stepped in and helped test the whole package and introduced some more modern syntax. I don't core maintain the package, but I work with the owner of the repo to help keep it modern and working!`,
+		stack: ['TypeScript', 'NodeJS', 'Jest']
 	},
 	{
 		title: 'This Site!',
