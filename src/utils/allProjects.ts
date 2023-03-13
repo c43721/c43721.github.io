@@ -5,8 +5,8 @@ export default [
 		title: 'Payload',
 		category: 'Discord Bot',
 		description: `
-		A discord bot intended to integrate services from TF2 into Discord. This was my first major projec that I had not only developed, but also deployed to end users.
-		I've deployed it using Docker, with nginx to proxy my requests, being served through Cloudflare. Payload bot is also accompanied by a React frontend to manage your settings.
+		A discord bot intended to integrate services from TF2 into Discord. This was my first major project which I not only developed on my own, but also deployed into a production environment for actual end users.
+		I deployed the system using Docker for my virtualized containers, NGiNX as a reverse proxy, which was then further proxied & DDoS protected via Cloudflare DNS & network services. Payload bot is released with an accompanying React frontend to manage your bot's personalized settings.
 		
 		<br /> <br />
 		Fun fact: I translated all of the bot to Spanish myself!`,
