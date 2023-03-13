@@ -18,21 +18,22 @@
 		</span>
 
 		<section class="description">
-			Hello! I'm a professional Software Engineer with a strong focus on backed, using tools like C#
-			and .NET, TypeScript and JavaScript, Rust and Cloudflare Workers, and deploying these projects
-			with Docker and Nginx.
+			<b>Hello!</b> I'm a professional Software Engineer with a strong focus on backend. I have solved problems using toolsets ranging from C#
+			and .NET, to TypeScript and JavaScript, and as far as Rust and Cloudflare Workers. My deployment techstack of choice for these projects
+			is Docker for isolation / containerization and NGiNX as my reverse proxy and load balancer.
 
 			<br /> <br />
 
-			I've been doing professional engineering for around a year, and extending that with another 3
-			years of hobby experience. I started with good old Java, and worked myself up to JavaScript,
-			TypeScript and C#. Most of my <a href="/projects">open source projects</a> are written in
+			I became enamored with engineering in the professional sense for around 1 year at this point. That, coupled with another 3
+			years spent as a hobby-enthusiast, give me an excellent base of knowledge with which I solve problems and seek to accomplish goals.
+			My first programming language was good old grandpa Java, from which I modernized my development tools by learning JavaScript, shortly 
+			thereafter followed by TypeScript and C#. Most of my <a href="/projects">Open Source Projects</a> are written in
 			TypeScript and deployed using Docker.
 
 			<br /> <br />
 
 			If you want to get in touch with me, you're free to
-			<a href="mailto:c43721@c43721.dev">send me an email</a>. If you wish to explore my projects in
+			<a href="mailto:c43721@c43721.dev">shoot me an email</a>. If you wish to explore my projects in
 			more detail, head to my <a href="https://github.com/c43721" target="_blank">github page</a>.
 		</section>
 	</section>
